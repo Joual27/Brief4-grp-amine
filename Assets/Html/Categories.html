@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/da6b47f324.js" crossorigin="anonymous"></script>
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="../Css/main.css">
+
+    <title>BookSea - Home</title>
+</head>
+<body>
+
+    <!-- START HEADER SECTION -->
+    <header>
+        <div class="head-1">
+            <div class="container">
+                <a href="../../Administration/Admin.html">Administration</a>
+            </div>
+        </div>
+
+        <div class="head-2">
+            <div class="container d-flex">
+
+                <div class="logo">
+                    <a href=""><img src="../Img/logo.png" alt="BookSea Logo"></a>
+                </div>
+
+                <div class="navbar d-flex">
+
+                    <div class="links">
+                        <ul>
+                            <li><a href="../../index.html">Home</a></li>
+                            <li><a href="Categories.html">Categories</a></li>
+                            <li><a href="Products.html">Products</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="Checkout/Cart.html" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                    <i class="fa-solid fa-bars active_Burger" id="Burger_Menu"></i>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER SECTION -->
+
+
+    <div class="container">
+        <section id="categories-container">
+            <h1 class="h1-cat">Categories <span>( Find The Best For You )</span></h1>
+    
+            <div class="carousel-container">
+                <button class="prev-button"><img src="../Img/previouse.png" alt=""></button>
+                <div class="viewport">
+                    <div class="categories-container" id="catContainer">
+                        <!-- <div class="category">
+                            <div class="centr-cat">
+                                <div class="cat-title">
+                                    <h1>Drama</h1>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <button class="next-button"><img src="../Img/next.png" alt=""></button>
+            </div>
+        </section>
+    </div>
+    
+
+
+    <footer>
+        <div class="foot-1">
+            <div class="container d-flex">
+
+                <div class="footer-links">
+                    <a href="../../index.html">
+                        <img src="../Img/logo.png" alt="BookSea Logo">
+                    </a>
+
+                    <div class="links"> 
+                        <ul class="pages">
+                            <li>Pages</li>
+                            <li><a href="../../index.html">Home</a></li>
+                            <li><a href="Categories.html">Categories</a></li>
+                            <li><a href="Products.html">Products</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+
+                        <ul class="support">
+                            <li>Support</li>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="">Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subscribe">
+                    <h3>Subscribe</h3>
+                    <form action="" id="subscribeForm">
+                        <input type="text" placeholder="Email Address" name="Subscribe-Email">
+                        <button type="submit" class="sp-btn-reverse">Send</button>
+                    </form>
+                    <div class="errorMessage"></div>
+                    <p>By Subscribing You Agree To Our <a href="#"><u>Privacy Policy</u></a></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="foot-2">
+            <div class="container">
+                <h4>All right reserved</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Js/Code-Repeat.js"></script>
+    <script src="../../javascript/category.js"></script>
+</body>
+</html>
